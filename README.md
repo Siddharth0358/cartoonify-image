@@ -70,8 +70,8 @@ cartoonify-image/
 ### Main Interface:
 - Original image on the left, cartoonified image on the right.
 
-![Main Interface](images/main_interface.png)
-![Cartoonified Image](images/cartoonified_image.png)
+![Main Interface](main_interface.png)
+![Cartoonified Image](cartoonified_image.png)
 
 ### Progress Bar:
 - Displays the progress while cartoonifying the image.
