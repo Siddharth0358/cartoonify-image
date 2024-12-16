@@ -1,6 +1,6 @@
 # Cartoonify Image Application
 
-A simple desktop application built using Python, OpenCV, and CustomTkinter to convert an image into a cartoon-like effect. The application allows users to upload an image, apply a cartoon filter, preview the results, and download the cartoonized image.
+A simple desktop application built using Python, OpenCV, and CustomTkinter to convert an image into a cartoon-like effect. The application allows users to upload an image, apply a cartoon filter, preview the results, and download the cartoonified image.
 
 ## Features
 
@@ -27,27 +27,23 @@ A simple desktop application built using Python, OpenCV, and CustomTkinter to co
 ### Steps
 
 1. Clone this repository:
-
    ```bash
-   gdrescription for repotoonify-image.git
+   git clone https://github.com/your-username/cartoonify-image.git
    cd cartoonify-image
    ```
 
 2. Create and activate a virtual environment (optional but recommended):
-
    ```bash
    python -m venv venv
    source venv/bin/activate # On Windows: venv\Scripts\activate
    ```
 
 3. Install the required dependencies:
-
    ```bash
    pip install -r requirements.txt
    ```
 
 4. Run the application:
-
    ```bash
    python cartoonify.py
    ```
@@ -72,16 +68,14 @@ cartoonify-image/
 ## Example Screenshots
 
 ### Main Interface:
-
 - Original image on the left, cartoonified image on the right.
 
-
+![Main Interface Screenshot](https://via.placeholder.com/500x300)
 
 ### Progress Bar:
-
 - Displays the progress while cartoonifying the image.
 
-
+![Progress Bar Screenshot](https://via.placeholder.com/500x300)
 
 ## Dependencies
 
@@ -91,7 +85,6 @@ cartoonify-image/
 - `customtkinter`
 
 Install them using:
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -106,6 +99,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Author
 
-- **Your Name**\
+- **Your Name**  
   Developer of the Cartoonify Image Application.
 
