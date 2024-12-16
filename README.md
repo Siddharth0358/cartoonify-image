@@ -70,12 +70,11 @@ cartoonify-image/
 ### Main Interface:
 - Original image on the left, cartoonified image on the right.
 
-![Main Interface Screenshot](https://via.placeholder.com/500x300)
+![Main Interface](images/main_interface.png)
+![Cartoonified Image](images/cartoonified_image.png)
 
 ### Progress Bar:
 - Displays the progress while cartoonifying the image.
-
-![Progress Bar Screenshot](https://via.placeholder.com/500x300)
 
 ## Dependencies
 
@@ -99,6 +98,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Author
 
-- **Your Name**  
+- **Siddharth Shinde**  
   Developer of the Cartoonify Image Application.
 
