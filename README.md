@@ -1,4 +1,5 @@
 Cartoonify Image Application
+
 A simple desktop application built using Python, OpenCV, and CustomTkinter to convert an image into a cartoon-like effect. The application allows users to upload an image, apply a cartoon filter, preview the results, and download the cartoonified image.
 
 Features
