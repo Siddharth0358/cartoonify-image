@@ -1,90 +1,111 @@
-Cartoonify Image Application
+# Cartoonify Image Application
 
-A simple desktop application built using Python, OpenCV, and CustomTkinter to convert an image into a cartoon-like effect. The application allows users to upload an image, apply a cartoon filter, preview the results, and download the cartoonified image.
+A simple desktop application built using Python, OpenCV, and CustomTkinter to convert an image into a cartoon-like effect. The application allows users to upload an image, apply a cartoon filter, preview the results, and download the cartoonized image.
 
-Features
-Upload Image: Select an image file in .jpg or .png format.
+## Features
 
-Cartoonify Image: Convert the uploaded image into a cartoon-like effect using edge detection and color quantization.
+- **Upload Image**: Select an image file in `.jpg` or `.png` format.
+- **Cartoonify Image**: Convert the uploaded image into a cartoon-like effect using edge detection and color quantization.
+- **Preview Results**: View both the original image and the cartoonified image side by side.
+- **Download Image**: Save the cartoonified image to your local device.
+- **Progress Indicator**: A progress bar displays the processing status while cartoonifying the image.
 
-Preview Results: View both the original image and the cartoonified image side by side.
+## Technologies Used
 
-Download Image: Save the cartoonified image to your local device.
+- **Python**: Core programming language for the application.
+- **OpenCV**: For image processing (edge detection, color quantization, and cartoon effect).
+- **CustomTkinter**: For the graphical user interface (GUI).
+- **Pillow**: For image handling and resizing in the GUI.
 
-Progress Indicator: A progress bar displays the processing status while cartoonifying the image.
+## Installation
 
-Technologies Used
-Python: Core programming language for the application.
+### Prerequisites
 
-OpenCV: For image processing (edge detection, color quantization, and cartoon effect).
+1. Python 3.7 or higher
+2. pip (Python package manager)
 
-CustomTkinter: For the graphical user interface (GUI).
+### Steps
 
-Pillow: For image handling and resizing in the GUI.
+1. Clone this repository:
 
-Installation
-Prerequisites
-Python 3.7 or higher
+   ```bash
+   gdrescription for repotoonify-image.git
+   cd cartoonify-image
+   ```
 
-pip (Python package manager)
+2. Create and activate a virtual environment (optional but recommended):
 
-Steps
-Clone this repository:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate # On Windows: venv\Scripts\activate
+   ```
 
-gdrescription for repotoonify-image.git
-cd cartoonify-image
-Create and activate a virtual environment (optional but recommended):
+3. Install the required dependencies:
 
-python -m venv venv
-source venv/bin/activate # On Windows: venv\Scripts\activate
-Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-pip install -r requirements.txt
-Run the application:
+4. Run the application:
 
-python cartoonify.py
-Usage
-Launch the application.
+   ```bash
+   python cartoonify.py
+   ```
 
-Click Select Image to upload an image.
+## Usage
 
-Click Cartoonify to apply the cartoon filter.
+1. Launch the application.
+2. Click **Select Image** to upload an image.
+3. Click **Cartoonify** to apply the cartoon filter.
+4. View the original and cartoonified images side by side.
+5. Click **Download Image** to save the cartoonified image.
 
-View the original and cartoonified images side by side.
+## Directory Structure
 
-Click Download Image to save the cartoonified image.
-
-Directory Structure
-
+```
 cartoonify-image/
 ├── cartoonify.py        # Main application script
 ├── requirements.txt     # Required dependencies
 ├── README.md            # Project documentation
+```
+
+## Example Screenshots
+
+### Main Interface:
+
+- Original image on the left, cartoonified image on the right.
 
 
-Main Interface:
-Original image on the left, cartoonified image on the right.
 
-Progress Bar:
-Displays the progress while cartoonifying the image.
+### Progress Bar:
 
-Dependencies:
+- Displays the progress while cartoonifying the image.
 
-opencv-python
-numpy
-Pillow
-customtkinter
+
+
+## Dependencies
+
+- `opencv-python`
+- `numpy`
+- `Pillow`
+- `customtkinter`
 
 Install them using:
 
+```bash
 pip install -r requirements.txt
-Contributing
+```
+
+## Contributing
+
 Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
 
-Author
-Siddharth Shinde
-Developer of the Cartoonify Image Application.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- **Your Name**\
+  Developer of the Cartoonify Image Application.
 
